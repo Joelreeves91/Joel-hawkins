@@ -1,4 +1,4 @@
-const CACHE = 'plan-joel-hawkins-marlow-2026-d1e96b4ef2';
+const CACHE = 'plan-joel-hawkins-thames100-2027-q7v3m-4520640708';
 const PRECACHE = ['/', '/manifest.json', '/icon-192.png', '/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(PRECACHE).catch(()=>{})).then(()=>self.skipWaiting()));
